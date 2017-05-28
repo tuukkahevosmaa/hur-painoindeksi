@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Painoindeksilaskuri</title>
+	<link href="css/main.css" rel="stylesheet">
+	</head>
+	<body>
+	<div class="mainDiv">
+	<h1>Painoindeksi</h1>
+	<div class="formDiv">
+	<form name="bmi">
+	<span class="inputLabel">Pituus (cm):</span><br>
+	<input type="text" name="Pituus"><br>
+	<span class="inputLabel">Paino (kg):</span><br>
+	<input type="text" name="Paino"><br>
+	<input type="button" name="Laske" value="Laske" onclick="calculateBMI()"><br>
+	</form>
+	</div>
+	<div class="resultDiv">
+	<span id="resultLabel">Tulos: </span><span id="resultNumber"></span><br>
+	</div>
+	</div>
+	<script src="js/main.js"></script>
+	</body>
+</html>
