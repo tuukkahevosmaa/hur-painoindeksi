@@ -1,5 +1,5 @@
 function calculateBMI() {
-	var bmiNumber;
+	var bmi;
 	var bmiText;
 	bmi = document.bmi.Paino.value / Math.pow((document.bmi.Pituus.value / 100), 2);
 	
